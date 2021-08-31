@@ -1,0 +1,116 @@
+
+ <style type="text/css">
+
+ /*.TOPbg{
+       background-image:  url(TOPbg_rsr.jpeg); }
+*/
+ .wordspace{
+  	  word-spacing: 10px;
+  }
+
+  .txttrans{
+  	 text-transform: capitalize;
+      font-style:  initial;
+  	 line-height: 140%;
+  }
+
+   .bgimg{
+
+         background-size: 100%;
+	     background-repeat: no-repeat;
+	     /*background-image: url("Website_bg.jpg"); color: black;*/
+	     background-image:  url(bg-masthead.jpg); color: white;
+	     padding: 8px ;
+         opacity: 1;
+         display: block;
+   	} 
+
+   .txtbox{
+   	     float: center;
+   	     text-align:  center;
+   	     width: 850px;
+         opacity: 0.1;
+          /*padding: 05px ;*/
+         background-color: black;
+         position: relative;
+         left: 300px;
+         
+   } 
+/*   .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  /*width: 100%;*/
+  /*height: auto;   }  */
+
+.overlay {
+  /*position: absolute;*/
+  /*top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;*/
+  /*height: 100%;*/
+  /*width: %;*/
+
+  opacity: 0.1;
+  transition: 0.3s ease;
+  /*background-color: #008CBA;*/
+    }
+
+ .container:hover .overlay {
+  opacity: 0.7;
+  }
+  
+  #div1{
+
+         border: 5px;
+	     /*color: black;  */
+	     /*font-style:  italic; */
+	     font-size: 25px;
+	     text-align: center;
+	   }
+
+   #divedu{
+    	  font-family: Arial, Helvetica, sans-serif;
+          text-align:  center; 
+             }  
+  .linktrans{
+  	      /* Unvisited link */
+     tr:hover{
+
+     }
+
+     a:link {
+     	color:red;
+         text-decoration:none;
+    	} 
+    /* Visited link */
+     a:visited {
+       color: blue;
+     } 
+    /* Mouse over link */
+    a:hover {
+    	text-shadow: black;
+    	text-decoration: underline;
+    	background-color: yellow;
+
+    }
+   	/* Selected link */
+   	 a:active {
+   	 	color: green;
+   	 }
+   	/* Unvisited link */
+    tr:hover{
+    	background-color: cyan;
+    }
+
+
+  }
+
+
+
+
+</style>
